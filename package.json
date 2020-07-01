@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy":"npm run build && firebase deploy"
   },
   "dependencies": {
     "@emotion/core": "^10.0.27",
@@ -12,6 +13,7 @@
     "@stripe/react-stripe-js": "^1.1.2",
     "@stripe/stripe-js": "^1.7.0",
     "axios": "^0.19.2",
+    "firebase-tools": "^8.4.3",
     "next": "latest",
     "react": "^16.7.0",
     "react-confetti": "^5.0.1",
