@@ -16,7 +16,7 @@
     "react": "^16.7.0",
     "react-confetti": "^5.0.1",
     "react-dom": "^16.7.0",
-    "stripe": "^8.15.0"
+    "stripe": "^8.203.0"
   },
   "license": "MIT",
   "devDependencies": {
